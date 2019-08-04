@@ -80,6 +80,7 @@
 		A0801CA122F6D73200CB5C4D = {
 			isa = PBXGroup;
 			children = (
+				A0801CDD22F6D81F00CB5C4D /* README.md */,
 				A0801CAC22F6D73200CB5C4D /* ObjectRecognize */,
 				A0801CC122F6D73300CB5C4D /* ObjectRecognizeTests */,
 				A0801CCC22F6D73300CB5C4D /* ObjectRecognizeUITests */,
@@ -101,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				A0801CAD22F6D73200CB5C4D /* AppDelegate.swift */,
-				A0801CDD22F6D81F00CB5C4D /* README.md */,
 				A0801CAF22F6D73200CB5C4D /* ViewController.swift */,
 				A0801CDB22F6D76C00CB5C4D /* Resnet50.mlmodel */,
 				A0801CB122F6D73200CB5C4D /* Main.storyboard */,
