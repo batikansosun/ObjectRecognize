@@ -14,6 +14,7 @@
 		A0801CB822F6D73300CB5C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0801CB622F6D73300CB5C4D /* LaunchScreen.storyboard */; };
 		A0801CC322F6D73300CB5C4D /* ObjectRecognizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0801CC222F6D73300CB5C4D /* ObjectRecognizeTests.swift */; };
 		A0801CCE22F6D73300CB5C4D /* ObjectRecognizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0801CCD22F6D73300CB5C4D /* ObjectRecognizeUITests.swift */; };
+		A0801CDC22F6D76D00CB5C4D /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A0801CDB22F6D76C00CB5C4D /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		A0801CC922F6D73300CB5C4D /* ObjectRecognizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectRecognizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0801CCD22F6D73300CB5C4D /* ObjectRecognizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRecognizeUITests.swift; sourceTree = "<group>"; };
 		A0801CCF22F6D73300CB5C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0801CDB22F6D76C00CB5C4D /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		A0801CDD22F6D81F00CB5C4D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				A0801CAD22F6D73200CB5C4D /* AppDelegate.swift */,
+				A0801CDD22F6D81F00CB5C4D /* README.md */,
 				A0801CAF22F6D73200CB5C4D /* ViewController.swift */,
+				A0801CDB22F6D76C00CB5C4D /* Resnet50.mlmodel */,
 				A0801CB122F6D73200CB5C4D /* Main.storyboard */,
 				A0801CB422F6D73300CB5C4D /* Assets.xcassets */,
 				A0801CB622F6D73300CB5C4D /* LaunchScreen.storyboard */,
@@ -257,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0801CB022F6D73200CB5C4D /* ViewController.swift in Sources */,
+				A0801CDC22F6D76D00CB5C4D /* Resnet50.mlmodel in Sources */,
 				A0801CAE22F6D73200CB5C4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
